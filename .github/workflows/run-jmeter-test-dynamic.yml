@@ -43,9 +43,9 @@ jobs:
 
     # Download CSV File
     - name: Download CSV File
-      #run: wget -O cred.csv https://raw.githubusercontent.com/cred.csv
+      run: wget -O cred.csv https://raw.githubusercontent.com/cred.csv
       #run: wget -O cred.csv https://raw.githubusercontent.com/ksarva/jmeter-github/main/test-data/cred.csv
-      run: wget -O cred.csv https://github.com/ksarva/jmeter-training/main/test-data/cred.csv
+      #run: wget -O cred.csv https://raw.githubusercontent.com/ksarva/jmeter-training/main/test-data/cred.csv
       #https://github.com/ksarva/jmeter-training/blob/main/test-data/cred.csv
 
     # Run JMeter Test with dynamic users and duration
